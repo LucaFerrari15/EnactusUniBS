@@ -1,35 +1,42 @@
 * {
-    background-color: rgb(56, 56, 56);
+    background-color: #333;
     margin: 0;
     padding: 0;
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
 
-.padding-6 {
-    padding: 6vh;
+a:hover {
+    color: #fdc03c;
+}
+
+.padding-7 {
+    padding: 7vh;
 }
 
 /*Navbar*/
 nav {
     position: fixed;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 700;
     width: 100%;
 }
 
 .navbar {
     /*border: 1px solid red;*/
-    height: 15vh;
+    height: 18vh;
     display: flex;
     justify-content: space-around;
 }
 
 .logo {
-    padding: 2vh 6vh 2vh 100px;
-    height: 11vh;
-    width: 11vh;
+    padding: 2vh 7vh 0vh 100px;
+    height: 16vh;
+    width: 26vh;
 }
 
 .nav-items {
